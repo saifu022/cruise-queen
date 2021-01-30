@@ -90,21 +90,23 @@ nav ul li a:hover, a.active{
 }
 .f-class{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .inp-width{
-    min-width: 350px;
+    min-width: 300px;
+    text-align: center;
 }
 .plus-minus-btn{
     color: #3352F2;
+    background-color: white;
+    border: none;
     font-size: 30px;
-    padding: 2px;
-    margin: 10px 5px 0px 0px;
+    padding: 5px 5px;
+    margin: 5px 15px;
     word-spacing: 20px;
-    
 }
-.booking-form .inputs{
+.booking-form .inputs {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
@@ -122,5 +124,8 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+.layerTwo{
+    display: none;
 }
 
